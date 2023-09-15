@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.nomeCtt{
+    font-weight: 400;
+}
+
+
+.card {
+
+    width: 450px;
+    background-color: white;
+    border-radius: 12px;
+    padding: 12px;
+    display: grid;
+    grid-template-columns: auto 1fr max-content;
+    gap: 10px;
+    align-items: center;
+}
+
+.card img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+.nomeContato{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.qntd{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: #1ecc07;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    place-self: start;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.tempo, .mensagem {
+    color: #b5b5b5;
+    font-size: 15px;
+    place-self: start;
+}
+.contato {
+    position: absolute;
+    bottom: -15px;
+    left: 74px;
+    background-color: #90ee90;
+    padding: 4px 10px;
+    font-size: 14px;
+    border-radius: 12px;
+    color: white;
+}
+
+.card-container {
+    display: flex;
+    gap: 14px;
+    flex-direction: column;
+    border-radius: 8px;
+    padding: 26px 14px;
+}
